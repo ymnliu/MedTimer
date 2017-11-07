@@ -77,6 +77,7 @@ The detailed explanation of resource usage can be found in HeidelTime Wiki (http
 
 If you use MedTime, please kindly cite the following paper.
 * Sohn S, Wagholikar KB, Li D, Jonnalagadda SR, Tao C, Komandur Elayavilli R, Liu H. "Comprehensive temporal information detection from clinical text: medical events, time, and TLINK identification" J Am Med Inform Assoc. 2013 Sep 1;20(5):836-42.
+
 If you used the lab test result extraction or TEO part of it, please kindly cite:
 * Liu S et al. Correlating Lab Test Results in Clinical Notes with Structured Lab Data: A Case Study in HbA1c and Glucose. Proc. AMIA Joint Summits on Translational Science, 2017: p221-228.  
 
