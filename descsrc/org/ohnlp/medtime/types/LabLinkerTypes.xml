@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>LabLinkerTypes</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+  <imports>
+    <import location="MedTimerTypes.xml"/>
+  <import location="TypeSystem.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>org.ohnlp.typesystem.type.textsem.LabLinkerSentence</name>
+      <description>Sentence with LabLinker info</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>annotationText</name>
+          <description>annotated LabLinker sentence fro raw text</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>orgSentence</name>
+          <description/>
+          <rangeTypeName>org.ohnlp.typesystem.type.textspan.Sentence</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+      <typeDescription>
+      <name>org.ohnlp.medtime.type.LabValueMention</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>labTestName</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>labTestValue</name>
+          <description/>
+          <rangeTypeName>uima.cas.Double</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>labTestMin</name>
+          <description/>
+          <rangeTypeName>uima.cas.Double</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>labTestMax</name>
+          <description/>
+          <rangeTypeName>uima.cas.Double</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>time</name>
+          <description/>
+          <rangeTypeName>org.ohnlp.medtime.type.MedTimex3</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>assertion</name>
+          <description>Assertion. (e.g. normal, high, low)</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>valueType</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>labSentence</name>
+          <description/>
+          <rangeTypeName>org.ohnlp.typesystem.type.textsem.LabLinkerSentence</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

@@ -1,0 +1,12 @@
+Variable name,variable representations,allowable units,exception units,preferred unit for normalization,minimum value by domain knowledge,maximum value by domain knowledge,domain knowledge source
+BMI,Body mass index|BMI|Quetelet index,kg/m2|kg/m^2|kg/m\(2\)|kg\.m2|kgm-2|kg/m|lb/in2|kg|mg/kg2,TEMPORAL|%|percentiu|uiu|nmol|/|g|millimoles|ml/min,kg/m2,16,40,http://apps.who.int/bmi/index.jsp?introPage=intro_3.html
+Ejection fraction,ejection fraction,,TEMPORAL,,0,1000,
+LVEF,lvef,%,TEMPORAL,%,0,1000
+VT or VF,vt or vf|Ventricular tachycardia|VT|ventricular fibrillation|VF,beats/min|beats,TEMPORAL,beats/min,0,1000
+4LAV,4 Chamber Maximum Volume(cc),,TEMPORAL,,0,1000,
+2LAV,2 Chamber Maximum Volume(cc),,TEMPORAL,,0,1000,
+BVLA,Biplane Volume (maximum) Index(cc/m2),,TEMPORAL,,0,1000,
+EF,ejection fraction|EF,,TEMPORAL,,0,1000,
+LVWT,maximum wall thickness,,TEMPORAL,,0,1000,
+LVOT gradient,LVOT gradient|LV outflow gradient|Peak outflow tract gradients,,TEMPORAL,,0,1000,
+Heart rate,heart rate|HR,,TEMPORAL,,0,1000,

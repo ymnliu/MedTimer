@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><cpeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <collectionReader>
+        <collectionIterator>
+            <descriptor>
+                <import name="edu.mayo.bsi.nlp.medtime.cr.LabLinkerReader"/>
+            </descriptor>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>InputDirectory</name>
+                    <value>
+                        <string>/Users/m142167/Documents/workspace/MedTimer/testdata/A1Coutput</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </collectionIterator>
+    </collectionReader>
+    <casProcessors casPoolSize="3" processingUnitThreadCount="1">
+        <casProcessor deployment="integrated" name="MedLabAggregateTAE">
+            <descriptor>
+                <import location="../aggregate_analysis_engine/LabLinkerAggregateTAE.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="0/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000" default="-1"/>
+            </errorHandling>
+            <checkpoint batch="10000" time="1000ms"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>Time</name>
+                    <value>
+                        <boolean>false</boolean>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>Duration</name>
+                    <value>
+                        <boolean>false</boolean>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>Set</name>
+                    <value>
+                        <boolean>false</boolean>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="LabLinkerWriter">
+            <descriptor>
+                <import location="../../../descsrc/org/ohnlp/medtime/ccs/LabLinkerWriter.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="0/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000" default="-1"/>
+            </errorHandling>
+            <checkpoint batch="10000" time="1000ms"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>OutputPath</name>
+                    <value>
+                        <string>testdata/labLinkerTest/cri_a1c_output.txt</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+    </casProcessors>
+    <cpeConfig>
+        <numToProcess>-1</numToProcess>
+        <deployAs>immediate</deployAs>
+        <checkpoint batch="0" time="300000ms"/>
+        <timerImpl/>
+    </cpeConfig>
+</cpeDescription>

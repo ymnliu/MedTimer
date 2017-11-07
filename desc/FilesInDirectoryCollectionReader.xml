@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collectionReaderDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <implementationName>edu.mayo.bsi.nlp.ctakes.cr.FilesInDirectoryCollectionReader</implementationName>
+  <processingResourceMetaData>
+    <name>lines from file collection reader</name>
+    <description>This collection reader facilitates reading documents from a directory.</description>
+    <version>1.0</version>
+    <vendor>Mayo Clinic</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>InputDirectory</name>
+        <description>specifies the path of the directory containing input files.</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>Language</name>
+        <description>ISO language code for the documents</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>Encoding</name>
+        <description>Character encoding for the documents.  If not specified, the default system encoding will be used.  Note that this parameter only applies if there is no CAS Initializer provided; otherwise, it is the CAS Inializer's responsibility to deal with character encoding issues.</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>Extensions</name>
+        <description>specifies the extensions of the files that the collection reader will read.  Values for this parameter should not begin with a dot ('.').</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>Recurse</name>
+        <description>If true, then the collection reader will recurse into subdirectories of the input directory.</description>
+        <type>Boolean</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>InputDirectory</name>
+        <value>
+          <string>testdata/trec15/orgPMC/00</string>
+        </value>
+      </nameValuePair>
+    <nameValuePair>
+        <name>Extensions</name>
+        <value>
+          <array>
+            <string>nxml</string>
+            </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs/>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>false</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </processingResourceMetaData>
+</collectionReaderDescription>
