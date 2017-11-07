@@ -51,10 +51,10 @@ available in $MedTimeHOME/desc/collection_processing_engine
 ### Cas Consumer
 	MedTimeWriter.xml: generates i2b2 Timex3 output format
 
-## Aggregate TAE
+### Aggregate TAE
 	MedTimeAggregateTAE.xml 
 	
-## Collection Processing Engine
+### Collection Processing Engine
 	MedTimeCPE.xml 
 
 ## MedTime v1.0 UIMA resources
@@ -73,7 +73,7 @@ resources/medtimeresources/used\_resources.txt
 
 The detailed explanation of resource usage can be found in HeidelTime Wiki (http://code.google.com/p/heideltime/wiki/HowToWriteResources)
 
-# Citation
+## Citation
 
 If you use MedTime, please cite the following paper.
 * Sohn S, Wagholikar KB, Li D, Jonnalagadda SR, Tao C, Komandur Elayavilli R, Liu H. "Comprehensive temporal information detection from clinical text: medical events, time, and TLINK identification" J Am Med Inform Assoc. 2013 Sep 1;20(5):836-42.
