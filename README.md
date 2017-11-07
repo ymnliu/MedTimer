@@ -43,12 +43,12 @@ To visualize a specific aggregate engine through CVD, go to load AE under the Ru
 To process a collection of documents, go to the FILE menu and open the corresponding CPE descriptor file 
 available in $MedTimeHOME/desc/collection_processing_engine
 
-# MedTime v1.0 UIMA descriptors
+## MedTime v1.0 UIMA descriptors
 
-## Primary Annotators
+### Primary Annotators
 	MedTimeAE.xml: finds temporal expressions and normalizes them according to the TIMEX3 TimeML annotation standard
 
-## Cas Consumer
+### Cas Consumer
 	MedTimeWriter.xml: generates i2b2 Timex3 output format
 
 ## Aggregate TAE
@@ -68,7 +68,7 @@ resources/medtimeresources/i2b2/repattern
 resources/medtimeresources/i2b2/rules
 - rules to extract date, time, duration, and frequency
 
-resources/medtimeresources/used_resources.txt
+resources/medtimeresources/used\_resources.txt
 - all paths used in resources
 
 The detailed explanation of resource usage can be found in HeidelTime Wiki (http://code.google.com/p/heideltime/wiki/HowToWriteResources)
@@ -76,7 +76,7 @@ The detailed explanation of resource usage can be found in HeidelTime Wiki (http
 # Citation
 
 If you use MedTime, please cite the following paper.
-*Sohn S, Wagholikar KB, Li D, Jonnalagadda SR, Tao C, Komandur Elayavilli R, Liu H. "Comprehensive temporal information detection from clinical text: medical events, time, and TLINK identification" J Am Med Inform Assoc. 2013 Sep 1;20(5):836-42.
-*Liu S et al. Correlating Lab Test Results in Clinical Notes with Structured Lab Data: A Case Study in HbA1c and Glucose. Proc. AMIA Joint Summits on Translational Science, 2017: p221-228.  
+* Sohn S, Wagholikar KB, Li D, Jonnalagadda SR, Tao C, Komandur Elayavilli R, Liu H. "Comprehensive temporal information detection from clinical text: medical events, time, and TLINK identification" J Am Med Inform Assoc. 2013 Sep 1;20(5):836-42.
+* Liu S et al. Correlating Lab Test Results in Clinical Notes with Structured Lab Data: A Case Study in HbA1c and Glucose. Proc. AMIA Joint Summits on Translational Science, 2017: p221-228.  
 
 
