@@ -11,9 +11,7 @@ Updated temporal expression extraction module for general purpose clinical texts
 which does not require section times or specific text metadata.
 
 ## Installation
-Java requirement: Java 1.7 minimum
-An UIMA is included in the package.
-
+Java requirement: Java 1.7 minimum.
 
 If you are using UNIX, simply:
 
@@ -21,8 +19,10 @@ If you are using UNIX, simply:
 ./runCPE.sh
 ```
 
-In the CPE interface, we suggest to use default FileCollection Reader and MedTimeWriter.
-You may change the intput/output directories as needed.
+In the CPE window, go to ```"File"``` -> ```"Open CPE Descriptor"``` and select ```./desc/medtimedesc/collection_process_engine/MedTimeCPE.xml```.
+You may change the ```"Input Directory"``` and ```"Output Dir"``` as needed. We suggest to use the default FileCollectionReader and MedTimeWriter.
+
+
 
 ##  Sub directories included in MedTimer v2.0
  
