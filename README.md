@@ -3,7 +3,7 @@
 MedTime is an Apache UIMA based temporal information extraction system developed by the Mayo Clinic NLP program. It extracts and normalizes TIMEX3-based temporal expressions
 from clinical text. MedTime has been adapted from the
 open-source temporal tagger, HeidelTime (https://github.com/HeidelTime/heideltime)
-but reengineered toward the clinical domain.
+but re-engineered toward the clinical domain.
 
 ## What's new
 
@@ -11,7 +11,7 @@ Updated temporal expression extraction module for general purpose clinical texts
 which does not require section times or specific text metadata.
 
 ## Installation
-Java requirement: Java 1.7 minimum.
+Java requirement: Java 1.7.
 
 If you are using UNIX, simply:
 
@@ -19,8 +19,8 @@ If you are using UNIX, simply:
 ./runCPE.sh
 ```
 
-In the CPE window, go to ```"File"``` -> ```"Open CPE Descriptor"``` and select ```./desc/medtimedesc/collection_process_engine/MedTimeCPE.xml```.
-You may change the ```"Input Directory"``` and ```"Output Dir"``` as needed. We suggest to use the default FileCollectionReader and MedTimeWriter.
+In the menu of the CPE window, go to `"File"` -> `"Open CPE Descriptor"` and select `./desc/medtimedesc/collection_process_engine/MedTimeCPE.xml`.
+You may change the `"Input Directory"` and `"Output Dir"` as needed. We suggest to use the default `FileCollectionReader` and `MedTimeWriter`.
 
 
 
@@ -69,10 +69,12 @@ The detailed explanation of resource usage can be found in HeidelTime Wiki (http
 
 ## Citation
 
-If you use MedTime, please kindly cite the following paper.
+If you use MedTime, please kindly consider citing the following papers:
+
+MedTime 1.0
 * Sohn S, Wagholikar KB, Li D, Jonnalagadda SR, Tao C, Komandur Elayavilli R, Liu H. "Comprehensive temporal information detection from clinical text: medical events, time, and TLINK identification" J Am Med Inform Assoc. 2013 Sep 1;20(5):836-42.
 
-If you used the lab test result extraction or TEO part of it, please kindly cite:
-* Liu S et al. Correlating Lab Test Results in Clinical Notes with Structured Lab Data: A Case Study in HbA1c and Glucose. Proc. AMIA Joint Summits on Translational Science, 2017: p221-228.  
+MedTimer 2.0
+* Liu S et al. Correlating Lab Test Results in Clinical Notes with Structured Lab Data: A Case Study in HbA1c and Glucose. Proc. AMIA Joint Summits on Translational Science, 2017: p221-228.
 
 
