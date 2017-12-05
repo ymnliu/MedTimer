@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><cpeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<?xml version="1.0" encoding="UTF-8"?>
+<cpeDescription xmlns="http://uima.apache.org/resourceSpecifier">
     <collectionReader>
         <collectionIterator>
             <descriptor>
-                <import name="org.ohnlp.medtagger.crs.FileSystemReader"/>
+                <import location="../../../medtaggerdescsrc/org/ohnlp/medtagger/crs/FileSystemReader.xml"/>
             </descriptor>
             <configurationParameterSettings>
                 <nameValuePair>
                     <name>InputDirectory</name>
                     <value>
-                        <string>testdata/medtimetest/input</string>
+                        <string>testdata/asthma_data</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>
@@ -29,7 +30,7 @@
         </casProcessor>
         <casProcessor deployment="integrated" name="MedTime Writer">
             <descriptor>
-                <import name="org.ohnlp.medtime.ccs.MedTimeWriter"/>
+                <import location="../../../descsrc/org/ohnlp/medtime/ccs/MedTimeWriter.xml"/>
             </descriptor>
             <deploymentParameters/>
             <errorHandling>
@@ -42,7 +43,7 @@
                 <nameValuePair>
                     <name>OutputDir</name>
                     <value>
-                        <string>testdata/medtimetest/output</string>
+                        <string>testdata/output</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>

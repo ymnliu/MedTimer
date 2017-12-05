@@ -198,8 +198,8 @@ public class MedTimeAnnotator extends JCasAnnotator_ImplBase {
 		pm.registerProcessor("org.ohnlp.medtime.ae.RemoveDateIfTimeProcessor");
 		pm.executeAllProcessors(jcas);	
 		
-		pm.registerProcessor("org.ohnlp.medtime.ae.Timex2TeoProcessor");
-		pm.executeAllProcessors(jcas);
+//		pm.registerProcessor("org.ohnlp.medtime.ae.Timex2TeoProcessor");
+//		pm.executeAllProcessors(jcas);
 	}
 
 	/**

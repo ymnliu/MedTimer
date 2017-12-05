@@ -134,7 +134,7 @@
         <name>dict</name>
         <description/>
         <fileResourceSpecifier>
-          <fileUrl>file:medtaggerresources/lookup/LabLinker.lookup.dict</fileUrl>
+          <fileUrl>file:medtaggerresources/lookup/MedTagger.lookup.dict</fileUrl>
         </fileResourceSpecifier>
       </externalResource>
       

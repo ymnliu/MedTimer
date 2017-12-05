@@ -131,12 +131,13 @@ public class MedTimeWriter extends CasConsumer_ImplBase {
 		int tid=0;
 		while (iterTimex.hasNext()){
 			MedTimex3 t = (MedTimex3) iterTimex.next();
-			String segv=t.getContextSentence().getSegment().getValue();
-			if(segv.equals("date_dictated") 
-					|| segv.equals("date_transcribed")
-					|| segv.equals("providers")
-					|| segv.equals("author")
-					) break;
+			// Blocked to handle null segment
+//			String segv=t.getContextSentence().getSegment().getValue();
+//			if(segv.equals("date_dictated") 
+//					|| segv.equals("date_transcribed")
+//					|| segv.equals("providers")
+//					|| segv.equals("author")
+//					) break;
 			endposition = t.getBegin();
 			if (endposition < startposition){
 				if (printDetails == true){

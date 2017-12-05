@@ -1,0 +1,295 @@
+variable	representations|Variable name|Variable name|LabTest
+glycated	haemoglobin|HBA1C|HBA1C|LabTest
+glycated	hemoglobin|HBA1C|HBA1C|LabTest
+glycosylated	hemoglobin|HBA1C|HBA1C|LabTest
+glycohemoglobin|HBA1C|HBA1C|LabTest
+hemoglobin	a1c|HBA1C|HBA1C|LabTest
+hemoglobina1c|HBA1C|HBA1C|LabTest
+hgba1c|HBA1C|HBA1C|LabTest
+hga1c|HBA1C|HBA1C|LabTest
+hba1c|HBA1C|HBA1C|LabTest
+ha1c|HBA1C|HBA1C|LabTest
+ba1c|HBA1C|HBA1C|LabTest
+hgb	a1c|HBA1C|HBA1C|LabTest
+a1c|HBA1C|HBA1C|LabTest
+hb1c|HBA1C|HBA1C|LabTest
+glyco|HBA1C|HBA1C|LabTest
+ogtt	glucose|Glucose|Glucose|LabTest
+fasting	blood	glucose|Glucose|Glucose|LabTest
+fasting	plasma	glucose|Glucose|Glucose|LabTest
+fasting	plasma|Glucose|Glucose|LabTest
+glucose|Glucose|Glucose|LabTest
+dextrose|Glucose|Glucose|LabTest
+grape	sugar|Glucose|Glucose|LabTest
+plasmatic	level	of	sugar|Glucose|Glucose|LabTest
+fpg|Glucose|Glucose|LabTest
+ogtt|Glucose|Glucose|LabTest
+fbs|Glucose|Glucose|LabTest
+fasting	blood	sugar|Glucose|Glucose|LabTest
+fbg|Glucose|Glucose|LabTest
+blood	sugar|Glucose|Glucose|LabTest
+oral	glucose	tolerance|Glucose tolerance|Glucose tolerance|LabTest
+glucose	tolerance|Glucose tolerance|Glucose tolerance|LabTest
+oral	glucose|Glucose tolerance|Glucose tolerance|LabTest
+fasting	insulin|Insulin|Insulin|LabTest
+insulin	glargine|Insulin|Insulin|LabTest
+insulin|Insulin|Insulin|LabTest
+body	mass	index|BMI|BMI|LabTest
+bmi|BMI|BMI|LabTest
+quetelet	index|BMI|BMI|LabTest
+serum	creatinine|Creatinine|Creatinine|LabTest
+s	-	creatinine|Creatinine|Creatinine|LabTest
+creatinine|Creatinine|Creatinine|LabTest
+creatinine	ratio|Creatinine ratio|Creatinine ratio|LabTest
+creatinine	clearance|Creatinine clearance|Creatinine clearance|LabTest
+insulin	naive|insulin naive|insulin naive|LabTest
+hypersensitivity|BP|BP|LabTest
+hysn|BP|BP|LabTest
+hypertension|BP|BP|LabTest
+blood	pressure|BP|BP|LabTest
+bp|BP|BP|LabTest
+sbp|BP-Systolic|BP-Systolic|LabTest
+systolic	blood	pressure|BP-Systolic|BP-Systolic|LabTest
+systolic	bp|BP-Systolic|BP-Systolic|LabTest
+systolic|BP-Systolic|BP-Systolic|LabTest
+dbp|BP-Diastolic|BP-Diastolic|LabTest
+diastolic	blood	pressure|BP-Diastolic|BP-Diastolic|LabTest
+diastolic	bp|BP-Diastolic|BP-Diastolic|LabTest
+diastolic|BP-Diastolic|BP-Diastolic|LabTest
+serum	calcium|SERUM CALCIUM|SERUM CALCIUM|LabTest
+fasting	c-peptide|C-peptide|C-peptide|LabTest
+c-peptide|C-peptide|C-peptide|LabTest
+dosage|Dosage|Dosage|LabTest
+zidovudine|Zidovudine|Zidovudine|LabTest
+azt|Zidovudine|Zidovudine|LabTest
+visual	acuity|Visual acuity|Visual acuity|LabTest
+acuity|Visual acuity|Visual acuity|LabTest
+myocardial	infarction|Myocardial infarction|Myocardial infarction|LabTest
+ecog	performance	status|ECOG|ECOG|LabTest
+performance	status	ecog|ECOG|ECOG|LabTest
+ecog|ECOG|ECOG|LabTest
+serum	bilirubin|Bilirubin|Bilirubin|LabTest
+bilirubin|Bilirubin|Bilirubin|LabTest
+marrow	cellularity|Marrow cellularity|Marrow cellularity|LabTest
+ejection	fraction|Ejection fraction|Ejection fraction|LabTest
+alphafetoprotein|Alpha-Fetoprotein|Alpha-Fetoprotein|LabTest
+alpha-fetoprotein|Alpha-Fetoprotein|Alpha-Fetoprotein|LabTest
+afp	levels|Alpha-Fetoprotein|Alpha-Fetoprotein|LabTest
+afp|Alpha-Fetoprotein|Alpha-Fetoprotein|LabTest
+plasma	triglycerides|Triglyceride|Triglyceride|LabTest
+serum	triglyceride|Triglyceride|Triglyceride|LabTest
+triglycerides|Triglyceride|Triglyceride|LabTest
+triglyceride|Triglyceride|Triglyceride|LabTest
+transaminase|Transaminase|Transaminase|LabTest
+years	of	age|Age|Age|LabTest
+aged|Age|Age|LabTest
+ages|Age|Age|LabTest
+age|Age|Age|LabTest
+years	old|Age|Age|LabTest
+year	old|Age|Age|LabTest
+old|Age|Age|LabTest
+tghb|TGHB|TGHB|LabTest
+triglycerides|Triglycerides|Triglycerides|LabTest
+testosterone|Testosterone|Testosterone|LabTest
+ferrimann-gallway|Ferrimann-gallway|Ferrimann-gallway|LabTest
+ferrimann	gallway|Ferrimann-gallway|Ferrimann-gallway|LabTest
+testosterone|Testosterone|Testosterone|LabTest
+haemoglobin	concentration|HB|HB|LabTest
+induration|Induration|Induration|LabTest
+cd4	cell|Cd4+|Cd4+|LabTest
+cd4+|Cd4+|Cd4+|LabTest
+cd4|Cd4+|Cd4+|LabTest
+intolerance|Intolerance|Intolerance|LabTest
+aids	dementia	complex|AIDS Dementia Complex|AIDS Dementia Complex|LabTest
+actg	aids	dementia	complex	staging	test|AIDS Dementia Complex|AIDS Dementia Complex|LabTest
+aids	dementia|AIDS Dementia Complex|AIDS Dementia Complex|LabTest
+oral	acyclovir|Acyclovir|Acyclovir|LabTest
+acyclovir|Acyclovir|Acyclovir|LabTest
+acv|Acyclovir|Acyclovir|LabTest
+loose	stools|Loose stools|Loose stools|LabTest
+unintentional	weight	loss|Weight Loss|Weight Loss|LabTest
+weight	loss|Weight Loss|Weight Loss|LabTest
+body	weight|Weight Loss|Weight Loss|LabTest
+weighed|Weight|Weight|LabTest
+weighing|Weight|Weight|LabTest
+birth	weight|Weight|Weight|LabTest
+weight	at	birth|Weight|Weight|LabTest
+weight|Weight|Weight|LabTest
+persistent	diarrhea|Diarrhea|Diarrhea|LabTest
+pneumocystis	carinii	pneumonia|PCP|PCP|LabTest
+pcp|PCP|PCP|LabTest
+retinal	lesions|Retinal lesions|Retinal lesions|LabTest
+ibuprofen|Ibuprofen|Ibuprofen|LabTest
+tumor-associated	edema|Edema|Edema|LabTest
+edema|Edema|Edema|LabTest
+fever|Fever|Fever|LabTest
+cytomegalovirus	lesion|CMV|CMV|LabTest
+cmv|CMV|CMV|LabTest
+cytomegalovirus|CMV|CMV|LabTest
+lymphadenopathy|Lymphadenopathy|Lymphadenopathy|LabTest
+b-lymphocyte|Lymphocyte|Lymphocyte|LabTest
+lymphocytes|Lymphocyte|Lymphocyte|LabTest
+lymphocyte|Lymphocyte|Lymphocyte|LabTest
+t-helper	cells|Tt-helper cells|Tt-helper cells|LabTest
+serum	carotene|Serum carotene|Serum carotene|LabTest
+vitamin|Vitamin|Vitamin|LabTest
+hiv	antigen	titer|HIV antigen titer|HIV antigen titer|LabTest
+thrombocytopenia|Thrombocytopenia|Thrombocytopenia|LabTest
+trimethoprim|Trimethoprim|Trimethoprim|LabTest
+hematocrit|Hematocrit|Hematocrit|LabTest
+alcoholic	drinks|Alcoholic|Alcoholic|LabTest
+alcoholic|Alcoholic|Alcoholic|LabTest
+alcohol	intake|Alcoholic|Alcoholic|LabTest
+alcohol|Alcoholic|Alcoholic|LabTest
+aspartate	aminotransferase|AST|AST|LabTest
+ast|AST|AST|LabTest
+sgot|AST|AST|LabTest
+alanine	aminotransferase|ALT|ALT|LabTest
+alt|ALT|ALT|LabTest
+sgpt|ALT|ALT|LabTest
+visual	field	loss|Visual field loss|Visual field loss|LabTest
+tonometry|IOP|IOP|LabTest
+pressure	in	the	eye|IOP|IOP|LabTest
+intraocular	pressure|IOP|IOP|LabTest
+iop|IOP|IOP|LabTest
+va|VA|VA|LabTest
+mini-mental	state	examination|MMSE|MMSE|LabTest
+mmse|MMSE|MMSE|LabTest
+adas|ADAS|ADAS|LabTest
+dlco|DLCO|DLCO|LabTest
+lung	capacity|Lung capacity|Lung capacity|LabTest
+fev1|Fev1|Fev1|LabTest
+fast	acting	bronchodilator|Fast acting bronchodilator|Fast acting bronchodilator|LabTest
+rescue	medication|Fast acting bronchodilator|Fast acting bronchodilator|LabTest
+quick	relief	medication|Fast acting bronchodilator|Fast acting bronchodilator|LabTest
+quick-acting	bronchodilators|Fast acting bronchodilator|Fast acting bronchodilator|LabTest
+relivers|Fast acting bronchodilator|Fast acting bronchodilator|LabTest
+grf|GFR|GFR|LabTest
+hematocrit|HCT|HCT|LabTest
+ht|HCT|HCT|LabTest
+hct|HCT|HCT|LabTest
+haematocrit|HCT|HCT|LabTest
+packed	cell	volume|HCT|HCT|LabTest
+pcv|HCT|HCT|LabTest
+erythrocyte	volume	fraction|HCT|HCT|LabTest
+evf|HCT|HCT|LabTest
+glycemic	control|Glycemic control|Glycemic control|LabTest
+phq-9|Phq-9|Phq-9|LabTest
+bariatric	surgery|Bariatric surgery|Bariatric surgery|LabTest
+hypoglycemic	episode|Hypoglycemic episode|Hypoglycemic episode|LabTest
+egfr|EGFR|EGFR|LabTest
+myopia|Myopia|Myopia|LabTest
+nearsighted|Myopia|Myopia|LabTest
+shortsighted|Myopia|Myopia|LabTest
+snellen|Snellen|Snellen|LabTest
+lesion|Lesion|Lesion|LabTest
+t4	index|T4|T4|LabTest
+t4|T4|T4|LabTest
+folate|Folate|Folate|LabTest
+b12|B12|B12|LabTest
+agitation	symptoms|Agitation symptoms|Agitation symptoms|LabTest
+antiretroviral	therapy|Therapy|Therapy|LabTest
+acute	therapy|Therapy|Therapy|LabTest
+zidovudine	\(azt\)	therapy|Therapy|Therapy|LabTest
+zidovudine	therapy|Therapy|Therapy|LabTest
+temperature|Temperature|Temperature|LabTest
+persisting|Persisting|Persisting|LabTest
+study	entry|Study entry|Study entry|LabTest
+entry|Study entry|Study entry|LabTest
+voluntary	volume|MVV|MVV|LabTest
+mvv|MVV|MVV|LabTest
+po2|PO2|PO2|LabTest
+oxygen	saturation|Oxygen saturation|Oxygen saturation|LabTest
+inferior|inferior|inferior|LabTest
+goldmann	visual	field	area|Goldmann visual field area|Goldmann visual field area|LabTest
+v4e	white	test	light|Goldmann visual field area|Goldmann visual field area|LabTest
+v4	e	white	test	light|Goldmann visual field area|Goldmann visual field area|LabTest
+v4e|Goldmann visual field area|Goldmann visual field area|LabTest
+goldmann	perimeter|Goldmann visual field area|Goldmann visual field area|LabTest
+goldman	perimeter|Goldmann visual field area|Goldmann visual field area|LabTest
+erg	amplitude|ERG|ERG|LabTest
+erg|ERG|ERG|LabTest
+white	light|White light|White light|LabTest
+ultraviolet	light|Ultraviolet light|Ultraviolet light|LabTest
+flickering	light|Flickering light|Flickering light|LabTest
+oral	glucocorticoids|Oral glucocorticoids|Oral glucocorticoids|LabTest
+methotrexate|Methotrexate|Methotrexate|LabTest
+chest	pain|Chest pain|Chest pain|LabTest
+calories|Calories|Calories|LabTest
+pefr|PEFR|PEFR|LabTest
+diary	symptom	code|Symptom code|Symptom code|LabTest
+symptom	code|Symptom code|Symptom code|LabTest
+albuterol|Albuterol|Albuterol|LabTest
+albuterol|Albuterol|Albuterol|LabTest
+qtc|QTC|QTC|LabTest
+lvef|LVEF|LVEF|LabTest
+vt	or	vf|VT or VF|VT or VF|LabTest
+ventricular	tachycardia|VT or VF|VT or VF|LabTest
+vt|VT or VF|VT or VF|LabTest
+ventricular	fibrillation|VT or VF|VT or VF|LabTest
+vf|VT or VF|VT or VF|LabTest
+microglobulin|Microglobulin|Microglobulin|LabTest
+biopsies|Biopsies|Biopsies|LabTest
+tumor|Tumor|Tumor|LabTest
+wbc|WBC|WBC|LabTest
+white	blood	cell|WBC|WBC|LabTest
+do2|Do2|Do2|LabTest
+neutrophil|Neutrophil|Neutrophil|LabTest
+absolute	neutrophil	count|ANC|ANC|LabTest
+anc|ANC|ANC|LabTest
+occasions|Occasions|Occasions|LabTest
+platelets|Platelets|Platelets|LabTest
+fio2|Fio2|Fio2|LabTest
+protein|Protein|Protein|LabTest
+pregnant|Pregnant|Pregnant|LabTest
+blood	cell	transfusion|Blood cell transfusion|Blood cell transfusion|LabTest
+serum	concentrations	of	hepatic	transaminases|SERUM TRANSAMINASE|SERUM TRANSAMINASE|LabTest
+serum	transaminase|SERUM TRANSAMINASE|SERUM TRANSAMINASE|LabTest
+hepatic	transaminases|SERUM TRANSAMINASE|SERUM TRANSAMINASE|LabTest
+ribonucleic	acid|RNA|RNA|LabTest
+rna|RNA|RNA|LabTest
+sexual	intercourse	attempts|Intercourse|Intercourse|LabTest
+supine	mean	heart	rate|Heart rate|Heart rate|LabTest
+surgery|Surgery|Surgery|LabTest
+pr|PR|PR|LabTest
+qrs|QRS|QRS|LabTest
+bradycardia|Bradycardia|Bradycardia|LabTest
+failure	rate|Failure rate|Failure rate|LabTest
+ldl	cholesterol|LDL Cholesterol|LDL Cholesterol|LabTest
+ldl	-	cholesterol|LDL Cholesterol|LDL Cholesterol|LabTest
+ldl-cholesterol|LDL Cholesterol|LDL Cholesterol|LabTest
+low-density	lipoprotein|LDL Cholesterol|LDL Cholesterol|LabTest
+ldl|LDL Cholesterol|LDL Cholesterol|LabTest
+hdl	cholesterol|HDL Cholesterol|HDL Cholesterol|LabTest
+hdl	-	cholesterol|HDL Cholesterol|HDL Cholesterol|LabTest
+hdl-cholesterol|HDL Cholesterol|HDL Cholesterol|LabTest
+high-density	lipoprotein|HDL Cholesterol|HDL Cholesterol|LabTest
+hdl|HDL Cholesterol|HDL Cholesterol|LabTest
+total	cholesterol|Total Cholesterol|Total Cholesterol|LabTest
+total-cholesterol|Total Cholesterol|Total Cholesterol|LabTest
+cholesterol|Total Cholesterol|Total Cholesterol|LabTest
+asymptomatic	stenosis|Stenosis|Stenosis|LabTest
+stenosis|Stenosis|Stenosis|LabTest
+kaufman	brief	intelligence	test|KBIT|KBIT|LabTest
+kbit|KBIT|KBIT|LabTest
+apnea|Apnea|Apnea|LabTest
+lymph	node|Lymph node|Lymph node|LabTest
+smoking|Smoking|Smoking|LabTest
+international	normalized	ratio|INR|INR|LabTest
+inr|INR|INR|LabTest
+a-gst|A-gst|A-gst|LabTest
+neutrophils|Neutrophils|Neutrophils|LabTest
+massive	nodes|Massive nodes|Massive nodes|LabTest
+massive	node|Massive nodes|Massive nodes|LabTest
+karnofsky|Karnofsky|Karnofsky|LabTest
+mage|MAGE|MAGE|LabTest
+lines	of	treatment|Lines of treatment|Lines of treatment|LabTest
+tumor	types|Tumor types|Tumor types|LabTest
+lines	of	therapy|Lines of therapy|Lines of therapy|LabTest
+lines	of	chemotherapy|Lines of chemotherapy|Lines of chemotherapy|LabTest
+lines	of	immunotherapy|Lines of immunotherapy|Lines of immunotherapy|LabTest
+lines	of	radiotion	therapy|Lines of radiotion therapy|Lines of radiotion therapy|LabTest
+lines	of	liposomal	therapy|Lines of liposomal therapy|Lines of liposomal therapy|LabTest
+measureable	disease|Measureable disease|Measureable disease|LabTest
+biopsible	disease|Biopsible disease|Biopsible disease|LabTest
+brain	metastasis|Brain metastasis|Brain metastasis|LabTest
