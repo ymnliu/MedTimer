@@ -22,9 +22,7 @@ If you are using UNIX, simply:
 In the menu of the CPE window, go to `"File"` -> `"Open CPE Descriptor"` and select `./desc/medtimedesc/collection_process_engine/MedTimeCPE.xml`.
 You may change the `"Input Directory"` and `"Output Dir"` as needed. We suggest to use the default `FileCollectionReader` and `MedTimeWriter`.
 
-
-## For developers
-See [wiki](https://github.com/ymnliu/MedTimer2/wiki/For-developers).
+Implementation details can be found in  [project wiki](https://github.com/ymnliu/MedTimer2/wiki/For-developers).
 
 ## Versions
 MedTime 1.0: http://ohnlp.org/index.php/MedTime_Project_Page

@@ -193,7 +193,7 @@ public class MedTimeAnnotator extends JCasAnnotator_ImplBase {
 			
 		updateTypes(jcas);
 		findAnchorDates(jcas);
-		specifyAmbiguousValues(jcas);
+//		specifyAmbiguousValues(jcas);
 		processOPValues(jcas);
 		pm.registerProcessor("org.ohnlp.medtime.ae.RemoveDateIfTimeProcessor");
 		pm.executeAllProcessors(jcas);	
