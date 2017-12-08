@@ -1,2 +1,3 @@
-java -Xms512M -Xmx1048M -cp resources:desc:descsrc:medtaggerdescsrc:MedTimer_jar/MedTimer.jar org.apache.uima.tools.cpm.CpmFrame 
+#!/usr/bin/env bash
+java -Xms512M -Xmx1048M -cp resources:desc:descsrc:medtaggerdescsrc:lib/MedTimer.jar org.apache.uima.tools.cpm.CpmFrame
 
