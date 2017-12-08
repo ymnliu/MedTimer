@@ -19,8 +19,8 @@ If you are using UNIX, simply:
 ./runCPE.sh
 ```
 
-In the menu of the CPE window, go to `"File"` -> `"Open CPE Descriptor"` and select `./desc/medtimedesc/collection_process_engine/MedTimeCPE.xml`.
-You may change the `"Input Directory"` and `"Output Dir"` as needed. We suggest to use the default `FileCollectionReader` and `MedTimeWriter`.
+In the menu of the CPE window, go to `"File"` -> `"Open CPE Descriptor"` and select `./desc/medtimedesc/collection_process_engine/MedTaggerTimerCPE.xml`.
+You may change the `"Input Directory"` and `"Output Dir"` as needed. We suggest to use the default `FileCollectionReader` and `MedTaggerTimerWriter`.
 
 Implementation details can be found in  [project wiki](https://github.com/ymnliu/MedTimer2/wiki/For-developers).
 
